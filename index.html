@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Euro Kuna Konverzija</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Euro Kuna Konverzija</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <!--<ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Euro Kuna Konverzija</a></li>
+      </ul>-->
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+	<h3 class="margin">Euro Kuna Konverzija</h3>
+	<img src="kuna-euro.jpg" class="img-responsive img-circle margin" style="display:inline" alt="kuna-euro" width="350" height="350">
+	<h3>Izračunajte kune u eure i eure u kune po tečaju: 1 Euro = 7.5345 Kune</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Konverzija</h3>
+	<form>
+		<label for="euro">Euro:</label><br />
+		<input type="number" id="euro" value="0">
+		<br /><br />
+		<label for="kuna">Kuna:</label><br />
+		<input type="number" id="kuna" value="0">
+	</form>
+</div>
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+	<p>Napravljeno od: <a href="https://www.informatikaplus.com"> InformatikaPlus</a></p> 
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
